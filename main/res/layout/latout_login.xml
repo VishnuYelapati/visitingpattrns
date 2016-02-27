@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/bg_visitingplaces1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff0000"
+        android:text="Uer Login..!"/>
+
+    <EditText
+        android:id="@+id/et_login_uid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:hint="enter your userId"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <EditText
+        android:id="@+id/et_login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:hint="enter your password"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_visit_login"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#FFE252"
+            android:textColor="#000000"
+            android:text="Login"/>
+
+        <Button
+            android:id="@+id/btn_visit_reset"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="#ff0000"
+            android:textColor="#000000"
+            android:text="Reset"/>
+
+    </LinearLayout>
+
+</LinearLayout>

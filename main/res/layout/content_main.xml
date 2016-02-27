@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/bg_visitingplaces1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="The Place of our lives:visiting patterns and automatic labelling from Longitudinal Smartphone Data"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:background="#003333"
+        android:textSize="20sp"
+        android:text="About"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#003333"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#003333"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Register"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#003333"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Exit"/>
+</LinearLayout>

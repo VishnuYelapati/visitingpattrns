@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_visitingplaces1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="The Location tracking functionality of modern mobile devices provides unprecedented opportunity to the understanding of individual mobility in daily life,instead of studying raw geographic coordinates.We are interested in understanding human mobility patterns based sequence of place visits which encode,at coarse resolution most daily activities.This paper presents a study on place characterization in people's every day life based on data recorded continuously by smartphones.First we study human mobility from sequence of place visits,including visiting patterns on different place categories.Second,we address th problem ofautomatic place labelling from smartphone data without using any geo-location information.Our study on a large-scale data collected from 114 smartphone users over 18 months confirm many intuitions,and also reveals findings recordings both regularly and novelty trends in visiting patterns.Considering the problem of place labelling with 10 place categories,we show that frequently visited places can be recognized reliably(over 80 percent)while it is much more challenging to recognize infrequent places."
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:background="#003333"
+            android:text="Back"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

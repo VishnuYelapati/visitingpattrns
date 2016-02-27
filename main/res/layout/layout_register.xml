@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_visitingplaces1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New egister Here..!"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/et_visit_uname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="enter your name"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <EditText
+        android:id="@+id/et_visit_uid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="enter your userId"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <EditText
+        android:id="@+id/et_visit_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="enter your password"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <EditText
+        android:id="@+id/et_visit_phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="enter your phone no"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <EditText
+        android:id="@+id/et_visit_location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="enter your location"
+        android:background="#99DAFF"
+        android:textColor="#c0c0c0"/>
+
+    <Button
+        android:id="@+id/btn_visit_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Go Register"
+        android:background="#0000ff"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>
